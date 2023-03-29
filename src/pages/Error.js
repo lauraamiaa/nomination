@@ -1,4 +1,4 @@
-import { useRouteError } from "react-router-dom";
+import "../styles/main.scss";
 
 const Error = () => {
   return (
