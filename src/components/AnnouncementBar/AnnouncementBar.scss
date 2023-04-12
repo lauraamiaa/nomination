@@ -1,28 +1,103 @@
-@import '../../../src/styles/variables';
-@import '../../../src/styles/animations';
-@import '../../../src/styles/mixins';
+@import "../../../src/styles/variables";
+@import "../../../src/styles/animations";
+@import "../../../src/styles/mixins";
 
-// .intro {
+.c-announcement-bar {
+  &__outer-wrapper {
+    background-color: $primaryColor;
+    padding: 0 30px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+  }
 
-//     h1 {
-//         opacity: 0;
-//         color: $secondaryColor;
-//         -webkit-animation: fade-up 1s cubic-bezier(0.165, 0.840, 0.440, 1.000) both;
-//                 animation: fade-up 1s cubic-bezier(0.165, 0.840, 0.440, 1.000) both;
-//     }
+  &__inner-wrapper {
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+  }
 
-//     span {
-//         opacity: 0;
-//         color: $primaryDark1Color;
-//         display: block;
-//         -webkit-animation: fade-up 1.2s cubic-bezier(0.165, 0.840, 0.440, 1.000) 0.1s both;
-//         animation: fade-up 1.2s cubic-bezier(0.165, 0.840, 0.440, 1.000) 0.1s both;
-//     }
+  &__left-content {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-basis: 30%;
+    a {
+      font-size: 10px;
+    }
+    @include lgMaxBreakPoint() {
+      display: none;
+    }
+  }
 
-//     p {
-//         color: $textColor;
-//         opacity: 0;
-//         -webkit-animation: fade-up 0.9s cubic-bezier(0.165, 0.840, 0.440, 1.000) 1s both;
-//         animation: fade-up 0.9s cubic-bezier(0.165, 0.840, 0.440, 1.000) 1s both;
-//     }
-// } 
+  &__center-content {
+    flex-basis: 40%;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+
+    @include lgMaxBreakPoint() {
+        flex-basis: 100%;
+      }
+  }
+
+  &__center-emoji {
+    height: 25px;
+    width: auto;
+    transform: rotate(10deg);
+  }
+
+  &__center-text {
+    font-family: $titleFont;
+    font-size: 10px;
+    text-align: center;
+    line-height: 15px;
+  }
+
+  &__right-content {
+    flex-basis: 30%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: flex-end;
+    align-items: center;
+
+    @include lgMaxBreakPoint() {
+      display: none;
+    }
+  }
+
+  &__shipping {
+    padding-right: 5px;
+    span {
+      white-space: nowrap;
+      font-size: 10px;
+    }
+  }
+
+  &__language-switcher {
+    border-left: 1px solid $textLight1Color;
+    padding: 0 5px;
+    span {
+      white-space: nowrap;
+      font-size: 10px;
+    }
+  }
+
+  &__header-links {
+    display: flex;
+    flex-wrap: nowrap;
+    margin: 0;
+    padding: 0 0 0 5px;
+    border-left: 1px solid $textLight1Color;
+    list-style: none;
+
+    a {
+      font-size: 10px;
+    }
+  }
+
+  &__account-creation {
+    padding-left: 1px;
+  }
+}
