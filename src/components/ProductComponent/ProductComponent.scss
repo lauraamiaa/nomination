@@ -1,0 +1,62 @@
+.c-product {
+  &__outer-wrapper {
+    max-width: 1500px;
+    margin: auto;
+    padding: 20px 0;
+  }
+
+  &__inner-wrapper {
+  }
+
+  &__product-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+
+  &__bracelet-container {
+    width: 65rem;
+    height: 28rem;
+    border-radius: $borderRadiusHigh;
+    border: 1px solid $textLight1Color;
+  }
+
+  &__content-container {
+
+  }
+
+  &__description-container {
+    display: flex;
+    align-items: center;
+    width: 25rem;
+    height: 10rem;
+    border-radius: $borderRadiusHigh;
+    border: 1px solid $textLight1Color;
+    background-color: $secondaryColor;
+    margin-bottom: 20px;
+  }
+
+  &__description-text {
+    width: 100%;
+    padding: 20px;
+  }
+
+  &__button-container {
+    width: 12rem;
+    height: 4rem;
+    border-radius: $borderRadius;
+    border: 1px solid $textLight1Color;
+    background-color: $secondaryColor;
+
+  }
+
+  &__charm-swiper {
+
+    .swiper-slide {
+        height: 5rem;
+        background-color: $secondaryColor;
+        border-radius: $borderRadius;
+        border: 1px solid $textLight1Color;
+    }
+  }
+}

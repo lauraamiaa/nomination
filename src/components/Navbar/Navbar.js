@@ -51,7 +51,7 @@ const Navbar = () => {
             <div className="c-navbar__icon wishlist">
               <img
                 class=""
-                src={`${process.env.PUBLIC_URL}/heart.png`}
+                src={`${process.env.PUBLIC_URL}/wishlist.png`}
                 alt="heart"
               />
             </div>
