@@ -1,0 +1,90 @@
+@import "../../../src/styles/variables";
+@import "../../../src/styles/animations";
+@import "../../../src/styles/mixins";
+
+.c-navbar {
+  &__outer-wrapper {
+  }
+
+  &__inner-wrapper {
+  }
+
+  &__top {
+    position: relative;
+    padding-top: 15px;
+  }
+
+  &__logo-container {
+    max-width: 13%;
+    position: relative;
+    margin: auto;
+  }
+
+  &__icons-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    position: absolute;
+    right: 1.5rem;
+    top: 20px;
+    height: 20px;
+  }
+
+  &__icon {
+    padding: 0 5px;
+
+    &.contact,
+    &.wishlist,
+    &.cart {
+      border-left: 1px solid $textLight1Color;
+    }
+
+    img {
+      height: 20px;
+      width: 20px;
+    }
+  }
+
+  &__bottom {
+    max-width: 1500px;
+    margin: auto;
+    background-color: $secondaryDark1Color;
+    border-radius: $borderRadius;
+    border: 1px solid $textLight1Color;
+  }
+
+  &__link-container {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+  }
+
+  &__link {
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 0 65px;
+    position: relative;
+
+    &:hover ul {
+        display: block;
+    }
+  }
+
+  &__dropdown-menu {
+    list-style: none;
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 20px;
+    z-index: 1;
+    background-color: $secondaryDark1Color;
+    padding: 30px 20px 0;
+    border-bottom-left-radius:$borderRadius;
+    border-bottom-right-radius:$borderRadius;
+
+    li {
+        padding: 10px 0;
+    }
+  }
+}
