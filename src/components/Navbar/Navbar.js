@@ -52,7 +52,7 @@ const Navbar = () => {
               <img
                 class=""
                 src={`${process.env.PUBLIC_URL}/wishlist.png`}
-                alt="heart"
+                alt="wishlist"
               />
             </div>
             <div className="c-navbar__icon cart">

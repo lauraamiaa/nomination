@@ -1,0 +1,22 @@
+.c-promo-swiper {
+  &__outer-wrapper {
+    max-width: 1500px;
+    margin: auto;
+    padding: 20px 0;
+  }
+
+  &__inner-wrapper {
+  }
+
+  &__header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+  }
+
+  &__heart-emoji {
+    height: 35px;
+    width: auto;
+  }
+}
