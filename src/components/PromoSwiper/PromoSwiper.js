@@ -1,4 +1,6 @@
 import React from "react";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
 
 function PromoSwiper() {
   return (
@@ -17,6 +19,34 @@ function PromoSwiper() {
             alt="heart"
           />
         </div>
+        <Swiper
+          className="c-promo-swiper__collection-swiper"
+          spaceBetween={20}
+          slidesPerView={4}
+        >
+          <SwiperSlide className="one"></SwiperSlide>
+          <SwiperSlide className="two"></SwiperSlide>
+          <SwiperSlide className="three"></SwiperSlide>
+          <SwiperSlide className="four"></SwiperSlide>
+        </Swiper>
+        <Swiper
+          className="c-promo-swiper__charm-swiper"
+          spaceBetween={5}
+          slidesPerView={11}
+        >
+          <SwiperSlide className="one"></SwiperSlide>
+          <SwiperSlide className="two"></SwiperSlide>
+          <SwiperSlide className="three"></SwiperSlide>
+          <SwiperSlide className="four"></SwiperSlide>
+          <SwiperSlide className="five"></SwiperSlide>
+          <SwiperSlide className="six"></SwiperSlide>
+          <SwiperSlide className="seven"></SwiperSlide>
+          <SwiperSlide className="eight"></SwiperSlide>
+          <SwiperSlide className="nine"></SwiperSlide>
+          <SwiperSlide className="ten"></SwiperSlide>
+          <SwiperSlide className="eleven"></SwiperSlide>
+          <SwiperSlide className="twelve"></SwiperSlide>
+        </Swiper>
       </div>
     </div>
   );

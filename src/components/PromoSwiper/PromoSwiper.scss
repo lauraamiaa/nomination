@@ -19,4 +19,72 @@
     height: 35px;
     width: auto;
   }
+
+  &__collection-swiper {
+    margin-bottom: 20px;
+    .swiper-slide {
+      height: 400px;
+      background-size: cover;
+      background-position: top;
+
+      &.one {
+        background-image: url("../../../public/designed-1.jpg");
+      }
+      &.two {
+        background-image: url("../../../public/designed-2.jpg");
+      }
+      &.three {
+        background-image: url("../../../public/designed-3.jpg");
+      }
+      &.four {
+        background-image: url("../../../public/designed-4.jpg");
+      }
+    }
+  }
+
+  &__charm-swiper {
+    .swiper-slide {
+        height: 5rem;
+        background-color: $secondaryColor;
+        border-radius: $borderRadius;
+        border: 1px solid $textLight1Color;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+
+        &.one {
+          background-image: url('../../../public/designed-c-1.png');
+        }
+        &.two {
+          background-image: url('../../../public/designed-c-2.png');
+        }
+        &.three {
+          background-image: url('../../../public/designed-c-3.png');
+        }
+        &.four {
+          background-image: url('../../../public/designed-c-4.png');
+        }
+        &.five {
+          background-image: url('../../../public/designed-c-5.png');
+        }
+        &.six {
+          background-image: url('../../../public/designed-c-6.png');
+        }
+        &.seven {
+          background-image: url('../../../public/designed-c-7.png');
+        }
+        &.eight {
+          background-image: url('../../../public/designed-c-8.png');
+        }
+        &.nine {
+          background-image: url('../../../public/designed-c-9.png');
+        }
+        &.ten {
+          background-image: url('../../../public/designed-c-10.png');
+        }
+        &.eleven {
+          background-image: url('../../../public/designed-c-11.png');
+        }
+    }
+  }
 }

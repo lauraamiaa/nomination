@@ -7,7 +7,13 @@ function ProductComponent() {
     <div className="c-product__outer-wrapper">
       <div className="c-product__inner-wrapper">
         <div className="c-product__product-container">
-          <div className="c-product__bracelet-container"></div>
+          <div className="c-product__bracelet-container">
+            <img
+              src={`${process.env.PUBLIC_URL}/bracelet.gif`}
+              alt="bracelet gif"
+              className="c-product__bracelet-gif"
+            />
+          </div>
           <div className="c-product__content-container">
             <div className="c-product__description-container">
               <div className="c-product__description-text">
@@ -24,22 +30,24 @@ function ProductComponent() {
             <div className="c-product__button-container"></div>
           </div>
         </div>
-        <div className="c-product__charm-swiper">
-          <Swiper spaceBetween={0} slidesPerView={11}>
-            <SwiperSlide>Slide 1</SwiperSlide>
-            <SwiperSlide>Slide 2</SwiperSlide>
-            <SwiperSlide>Slide 3</SwiperSlide>
-            <SwiperSlide>Slide 4</SwiperSlide>
-            <SwiperSlide>Slide 5</SwiperSlide>
-            <SwiperSlide>Slide 6</SwiperSlide>
-            <SwiperSlide>Slide 7</SwiperSlide>
-            <SwiperSlide>Slide 8</SwiperSlide>
-            <SwiperSlide>Slide 9</SwiperSlide>
-            <SwiperSlide>Slide 10</SwiperSlide>
-            <SwiperSlide>Slide 11</SwiperSlide>
-            <SwiperSlide>Slide 12</SwiperSlide>
-          </Swiper>
-        </div>
+        <Swiper
+          className="c-product__charm-swiper"
+          spaceBetween={5}
+          slidesPerView={11}
+        >
+          <SwiperSlide className="one"></SwiperSlide>
+          <SwiperSlide className="two"></SwiperSlide>
+          <SwiperSlide className="three"></SwiperSlide>
+          <SwiperSlide className="four"></SwiperSlide>
+          <SwiperSlide className="five"></SwiperSlide>
+          <SwiperSlide className="six"></SwiperSlide>
+          <SwiperSlide></SwiperSlide>
+          <SwiperSlide></SwiperSlide>
+          <SwiperSlide></SwiperSlide>
+          <SwiperSlide></SwiperSlide>
+          <SwiperSlide></SwiperSlide>
+          <SwiperSlide></SwiperSlide>
+        </Swiper>
       </div>
     </div>
   );
