@@ -1,0 +1,17 @@
+@import "../../../src/styles/variables";
+@import "../../../src/styles/animations";
+@import "../../../src/styles/mixins";
+
+.c-instagram {
+  &__outer-wrapper {
+  }
+
+  &__inner-wrapper {
+  }
+
+  &__header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
