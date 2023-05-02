@@ -7,11 +7,34 @@
   }
 
   &__inner-wrapper {
+    padding-bottom: 20px;
   }
 
   &__header {
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+
+  &__grid-container {
+    padding: 0 20px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items:stretch;
+    gap: 20px;
+  }
+
+  &__grid-column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
   }
 }

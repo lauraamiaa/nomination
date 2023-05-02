@@ -27,7 +27,13 @@ function ProductComponent() {
                 </p>
               </div>
             </div>
-            <div className="c-product__button-container"></div>
+            <div className="c-product__button-container">
+              {/* <img
+                src={`${process.env.PUBLIC_URL}/playbutton_button.png`}
+                alt="button icon"
+                className="c-product__button-icon"
+              /> */}
+            </div>
           </div>
         </div>
         <Swiper
