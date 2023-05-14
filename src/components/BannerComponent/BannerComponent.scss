@@ -1,0 +1,15 @@
+@import "../../../src/styles/variables";
+@import "../../../src/styles/animations";
+@import "../../../src/styles/mixins";
+
+.c-banner {
+  &__outer-wrapper {
+  }
+
+  &__inner-wrapper {
+  }
+
+  &_image {
+    width: 100%;
+  }
+}
