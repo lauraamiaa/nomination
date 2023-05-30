@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/nomination/static/css/main.c1e9fbe8.css",
+    "main.js": "/nomination/static/js/main.394a1b1f.js",
+    "static/media/designed-3.jpg": "/nomination/static/media/designed-3.a1317558a9b6342b5e7c.jpg",
+    "static/media/designed-1.jpg": "/nomination/static/media/designed-1.e97bccd274e83fea0e9e.jpg",
+    "static/media/designed-2.jpg": "/nomination/static/media/designed-2.77ac8885f1267207af94.jpg",
+    "static/media/designed-4.jpg": "/nomination/static/media/designed-4.309a0210ee1ef007c332.jpg",
+    "static/media/designed-c-7.png": "/nomination/static/media/designed-c-7.ca7c7d5be283e066c062.png",
+    "static/media/designed-c-9.png": "/nomination/static/media/designed-c-9.6264c98ff6d8d2f61752.png",
+    "static/media/background.jpg": "/nomination/static/media/background.fc698f9c5ead20b24a36.jpg",
+    "static/media/designed-c-11.png": "/nomination/static/media/designed-c-11.5e982302cb0e4af40c66.png",
+    "static/media/designed-c-6.png": "/nomination/static/media/designed-c-6.679aa45c2ff1dcbb48f4.png",
+    "static/media/designed-c-10.png": "/nomination/static/media/designed-c-10.64aa1b95d47fe66a9c0c.png",
+    "static/media/designed-c-5.png": "/nomination/static/media/designed-c-5.823ccf074b7f863e3e0d.png",
+    "static/media/designed-c-8.png": "/nomination/static/media/designed-c-8.417b91087947ca1e205c.png",
+    "static/media/designed-c-4.png": "/nomination/static/media/designed-c-4.25789b6df6da3398125a.png",
+    "static/media/AppleChanceryRegular.ttf": "/nomination/static/media/AppleChanceryRegular.0cf6595e96853c6e6e53.ttf",
+    "static/media/composable-6.png": "/nomination/static/media/composable-6.3fc8498b7e15b0a6a00f.png",
+    "static/media/composable-2.png": "/nomination/static/media/composable-2.1a485582ea143282b388.png",
+    "static/media/MonumentExtendedRegular.otf": "/nomination/static/media/MonumentExtendedRegular.db74f7a563ec017311bc.otf",
+    "static/media/composable-1.png": "/nomination/static/media/composable-1.57145deba74c1ae1672b.png",
+    "static/media/composable-5.png": "/nomination/static/media/composable-5.2dba0f59433bb074724f.png",
+    "static/media/designed-c-3.png": "/nomination/static/media/designed-c-3.14c47a86546e8f9854a2.png",
+    "static/media/designed-c-1.png": "/nomination/static/media/designed-c-1.3fde29d0f50359b98478.png",
+    "static/media/composable-3.png": "/nomination/static/media/composable-3.d2a11d530613b9ff60a1.png",
+    "static/media/designed-c-2.png": "/nomination/static/media/designed-c-2.cf306d2e796d7ca0d9fe.png",
+    "static/media/composable-4.png": "/nomination/static/media/composable-4.ce9c07ff737ab5df0916.png",
+    "index.html": "/nomination/index.html",
+    "main.c1e9fbe8.css.map": "/nomination/static/css/main.c1e9fbe8.css.map",
+    "main.394a1b1f.js.map": "/nomination/static/js/main.394a1b1f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c1e9fbe8.css",
+    "static/js/main.394a1b1f.js"
+  ]
+}
