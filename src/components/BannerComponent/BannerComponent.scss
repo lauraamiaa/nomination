@@ -4,12 +4,24 @@
 
 .c-banner {
   &__outer-wrapper {
+    max-width: 1500px;
+    margin: auto;
+    padding: 20px 0;
   }
 
   &__inner-wrapper {
+    position: relative;
   }
 
-  &_image {
+  &_video {
     width: 100%;
+    border-radius: 40px;
+  }
+
+  &__badge {
+    position: absolute;
+    right: 3%;
+    bottom: 5%;
+    width: 500px;
   }
 }

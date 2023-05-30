@@ -6,53 +6,19 @@ function InstagramComponent() {
           <h2>JOIN THE FAM @NOMINATIONITALY</h2>
         </div>
         <div className="c-instagram__grid-container">
-          <div className="c-instagram__grid-column">
-            <img
-              src={`${process.env.PUBLIC_URL}/instagram-1.jpg`}
-              alt=""
-              className="c-instagram__instagram-1"
-            />
-            <img
-              src={`${process.env.PUBLIC_URL}/instagram-2.jpg`}
-              alt=""
-              className="c-instagram__instagram-2"
-            />
+          <div className="c-instagram__first-row">
+            <img src={`${process.env.PUBLIC_URL}/insta-1.jpg`} />
+            <img src={`${process.env.PUBLIC_URL}/insta-2.jpg`} />
+            <img src={`${process.env.PUBLIC_URL}/insta-3.png`} />
           </div>
-          <div className="c-instagram__grid-column">
-            <img
-              src={`${process.env.PUBLIC_URL}/instagram-3.jpg`}
-              alt=""
-              className="c-instagram__instagram-3"
-            />
-            <img
-              src={`${process.env.PUBLIC_URL}/instagram-4.jpeg`}
-              alt=""
-              className="c-instagram__instagram-4"
-            />
-          </div>
-          <div className="c-instagram__grid-column">
-            <img
-              src={`${process.env.PUBLIC_URL}/instagram-5.jpg`}
-              alt=""
-              className="c-instagram__instagram-5"
-            />
-            <img
-              src={`${process.env.PUBLIC_URL}/instagram-6.jpg`}
-              alt=""
-              className="c-instagram__instagram-6"
-            />
-          </div>
-          <div className="c-instagram__grid-column">
-            <img
-              src={`${process.env.PUBLIC_URL}/instagram-7.jpeg`}
-              alt=""
-              className="c-instagram__instagram-7"
-            />
-            <img
-              src={`${process.env.PUBLIC_URL}/instagram-8.png`}
-              alt=""
-              className="c-instagram__instagram-8"
-            />
+          <div className="c-instagram__second-row">
+            <img src={`${process.env.PUBLIC_URL}/instagram-2.jpg`} />
+            <img src={`${process.env.PUBLIC_URL}/instagram-3.jpg`} />
+            <img src={`${process.env.PUBLIC_URL}/instagram-1.jpg`} />
+            <img src={`${process.env.PUBLIC_URL}/insta-3.png`} />
+            <img src={`${process.env.PUBLIC_URL}/insta-8.jpeg`} />
+            <img src={`${process.env.PUBLIC_URL}/instagram-5.jpg`} />
+            <img src={`${process.env.PUBLIC_URL}/insta-10.jpeg`} />
           </div>
         </div>
       </div>

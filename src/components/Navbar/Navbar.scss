@@ -15,9 +15,12 @@
   }
 
   &__logo-container {
-    max-width: 13%;
+    max-width: 300px;
     position: relative;
     margin: auto;
+    img {
+      width: 100%;
+    }
   }
 
   &__icons-container {
@@ -48,9 +51,6 @@
   &__bottom {
     max-width: 1500px;
     margin: auto;
-    background-color: $secondaryDark1Color;
-    border-radius: $borderRadius;
-    border: 1px solid $textLight1Color;
   }
 
   &__link-container {
@@ -63,9 +63,19 @@
   &__link {
     text-transform: uppercase;
     display: inline-block;
-    padding: 0 65px;
+    padding: 0 45px;
     position: relative;
 
+    &:first-of-type {
+      padding-left: 0;
+    }
+    &:last-of-type {
+      padding-right: 0;
+    }
+
+    &:hover {
+      cursor: pointer;
+    }
     &:hover ul {
         display: block;
     }
@@ -76,15 +86,25 @@
     display: none;
     position: absolute;
     top: 100%;
-    left: 20px;
-    z-index: 1;
-    background-color: $secondaryDark1Color;
-    padding: 30px 20px 0;
+    left: 0;
+    z-index: 100;
+    background-color: $secondaryColor;
+    padding-top: 30px;
+    padding-left: 0;
     border-bottom-left-radius:$borderRadius;
     border-bottom-right-radius:$borderRadius;
 
     li {
-        padding: 10px 0;
+        padding: 15px 20px;
+
+        &:hover {
+          background-color: $secondaryDark1Color;
+          border-radius: $borderRadius;
+          a {
+            font-style: italic;
+          }
+
+        }
     }
   }
 }

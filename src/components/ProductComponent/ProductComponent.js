@@ -19,11 +19,9 @@ function ProductComponent() {
               <div className="c-product__description-text">
                 <h3>BRACELET BUILDER</h3>
                 <p>
-                  Customize your very own necklace
+                  Customize your very own Composable
                   <br />
-                  Creating a bracelet which captures your essence.
-                  <br />
-                  Have fun baby!
+                  Capture your essence & get creative
                 </p>
               </div>
             </div>

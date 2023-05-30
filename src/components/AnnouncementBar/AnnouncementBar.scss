@@ -31,11 +31,11 @@
   }
 
   &__center-content {
-    flex-basis: 40%;
     display: flex;
     flex-wrap: nowrap;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
 
     @include lgMaxBreakPoint() {
         flex-basis: 100%;
@@ -48,12 +48,30 @@
     transform: rotate(10deg);
   }
 
+  @keyframes slideInOut {
+    0% {
+      transform: translateX(0%);
+    }
+    50% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(-200%);
+    }
+  }
   &__center-text {
     font-family: $titleFont;
     font-size: 10px;
     text-align: center;
     line-height: 15px;
+
+    animation: slideInOut 5s linear infinite;
+    white-space: nowrap;
+    display: inline-block;
+    position: relative;
+    left: 100%;
   }
+
 
   &__right-content {
     flex-basis: 30%;
