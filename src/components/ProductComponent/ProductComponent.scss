@@ -64,28 +64,69 @@
         height: 5rem;
         background-color: $secondaryColor;
         border-radius: $borderRadius;
-        border: 1px solid $textLight1Color;
         background-size: cover;
         background-position: center;
         position: relative;
 
-        &.one {
-          background-image: url('../../../public/composable-1.png');
+        &.charm-1 {
+          background-image: url('../../../public/charm-1.png');
         }
-        &.two {
-          background-image: url('../../../public/composable-2.png');
+        &.charm-2 {
+          background-image: url('../../../public/charm-2.png');
         }
-        &.three {
-          background-image: url('../../../public/composable-3.png');
+        &.charm-3 {
+          background-image: url('../../../public/charm-3.png');
         }
-        &.four {
-          background-image: url('../../../public/composable-4.png');
+        &.charm-4 {
+          background-image: url('../../../public/charm-4.png');
         }
-        &.five {
-          background-image: url('../../../public/composable-5.png');
+        &.charm-5 {
+          background-image: url('../../../public/charm-5.jpg');
         }
-        &.six {
-          background-image: url('../../../public/composable-6.png');
+        &.charm-6 {
+          background-image: url('../../../public/charm-6.jpg');
+        }
+        &.charm-7 {
+          background-image: url('../../../public/charm-7.jpg');
+        }
+        &.charm-8 {
+          background-image: url('../../../public/charm-8.jpg');
+        }
+        &.charm-9 {
+          background-image: url('../../../public/charm-9.jpg');
+        }
+        &.charm-10 {
+          background-image: url('../../../public/charm-10.jpg');
+        }
+        &.charm-11 {
+          background-image: url('../../../public/charm-11.jpg');
+        }
+        &.charm-12 {
+          background-image: url('../../../public/charm-12.jpg');
+        }
+        &.charm-13 {
+          background-image: url('../../../public/charm-13.jpg');
+        }
+        &.charm-14 {
+          background-image: url('../../../public/charm-14.jpg');
+        }
+        &.charm-15 {
+          background-image: url('../../../public/charm-15.jpg');
+        }
+        &.charm-16 {
+          background-image: url('../../../public/charm-16.jpg');
+        }
+        &.charm-17 {
+          background-image: url('../../../public/charm-17.jpg');
+        }
+        &.charm-18 {
+          background-image: url('../../../public/charm-18.jpg');
+        }
+        &.charm-19 {
+          background-image: url('../../../public/charm-19.jpg');
+        }
+        &.charm-20 {
+          background-image: url('../../../public/charm-20.jpg');
         }
     }
   }
