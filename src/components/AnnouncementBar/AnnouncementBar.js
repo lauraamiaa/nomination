@@ -5,7 +5,7 @@ function AnnouncementBar() {
     <div className="c-announcement-bar__outer-wrapper">
       <div className="c-announcement-bar__inner-wrapper">
         <div class="c-announcement-bar__left-content">
-          <a href="#">Store Locator</a>
+          <span>Store Locator</span>
         </div>
         <img
           class="c-announcement-bar__center-emoji"
@@ -24,17 +24,17 @@ function AnnouncementBar() {
         />
         <div class="c-announcement-bar__right-content">
           <div class="c-announcement-bar__shipping">
-            <span href="#">Ship to: US</span>
+            <span>Ship to: US</span>
           </div>
           <div class="c-announcement-bar__language-switcher">
             <span>Eng</span>
           </div>
           <ul class="c-announcement-bar__header-links">
             <li class="c-announcement-bar__authorization-link">
-              <a href="#">Sign In /</a>
+              <span>Sign In /</span>
             </li>
             <li class="c-announcement-bar__account-creation">
-              <a href="#">Create an Account</a>
+              <span>Create an Account</span>
             </li>
           </ul>
         </div>

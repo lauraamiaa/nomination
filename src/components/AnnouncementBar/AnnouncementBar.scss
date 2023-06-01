@@ -22,7 +22,7 @@
     justify-content: flex-start;
     align-items: center;
     flex-basis: 30%;
-    a {
+    span {
       font-size: 10px;
     }
     @include lgMaxBreakPoint() {
@@ -110,7 +110,7 @@
     border-left: 1px solid $textLight1Color;
     list-style: none;
 
-    a {
+    span {
       font-size: 10px;
     }
   }

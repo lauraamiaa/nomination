@@ -45,103 +45,103 @@ const Navbar = () => {
           <navbar className="c-navbar__navigation">
             <ul className="c-navbar__link-container">
               <li class="c-navbar__link">
-                <h3 href="#">composable</h3>
+                <h3>composable</h3>
                 <ul class="c-navbar__dropdown-menu">
                   <li>
-                    <a href="#">Build your own</a>
+                    <span>Build your own</span>
                   </li>
                   <li>
-                    <a href="#">Inspo</a>
+                    <span>Inspo</span>
                   </li>
                 </ul>
               </li>
 
               <li class="c-navbar__link">
-                <h3 href="#">charms</h3>
+                <h3>charms</h3>
                 <ul class="c-navbar__dropdown-menu">
                   <li>
-                    <a href="#">New in</a>
+                    <span>New in</span>
                   </li>
                   <li>
-                    <a href="#">Love</a>
+                    <span>Love</span>
                   </li>
                   <li>
-                    <a href="#">Zodiac signs</a>
+                    <span>Zodiac signs</span>
                   </li>
                   <li>
-                    <a href="#">Letters</a>
+                    <span>Letters</span>
                   </li>
                   <li>
-                    <a href="#">Engraving</a>
+                    <span>Engraving</span>
                   </li>
                   <li>
-                    <a href="#">Angel</a>
+                    <span>Angel</span>
                   </li>
                   <li>
-                    <a href="#">Devil</a>
+                    <span>Devil</span>
                   </li>
                   <li>
-                    <a href="#">Symbols</a>
+                    <span>Symbols</span>
                   </li>
                   <li>
-                    <a href="#">Holidayz</a>
+                    <span>Holidayz</span>
                   </li>
                   <li>
-                    <a href="#">Collabs</a>
+                    <span>Collabs</span>
                   </li>
                   <li>
-                    <a href="#">Spiritual</a>
+                    <span>Spiritual</span>
                   </li>
                   <li>
-                    <a href="#">Stones</a>
+                    <span>Stones</span>
                   </li>
                 </ul>
               </li>
 
               <li class="c-navbar__link">
-                <h3 href="#">collabz</h3>
+                <h3>collabz</h3>
               </li>
 
               <li class="c-navbar__link">
-                <h3 href="#">engraving</h3>
+                <h3>engraving</h3>
               </li>
 
               <li class="c-navbar__link">
-                <h3 href="#">jewellery</h3>
+                <h3>jewellery</h3>
                 <ul class="c-navbar__dropdown-menu">
                   <li>
-                    <a href="#">Best Sellers</a>
+                    <span>Best Sellers</span>
                   </li>
                   <li>
-                    <a href="#">Necklaces</a>
+                    <span>Necklaces</span>
                   </li>
                   <li>
-                    <a href="#">Rings</a>
+                    <span>Rings</span>
                   </li>
                   <li>
-                    <a href="#">Watches</a>
+                    <span>Watches</span>
                   </li>
                   <li>
-                    <a href="#">Accessoires</a>
+                    <span>Accessoires</span>
                   </li>
                 </ul>
               </li>
 
               <li class="c-navbar__link">
-                <h3 href="#">giftcard</h3>
+                <h3>giftcard</h3>
               </li>
 
               <li class="c-navbar__link">
-                <h3 href="#">about</h3>
+                <h3>about</h3>
                 <ul class="c-navbar__dropdown-menu">
                   <li>
-                    <a href="#">Our Story</a>
+                    <span>Our Story</span>
                   </li>
                   <li>
-                    <a href="#">Craftsmanship</a>
+                    <span>Craftsmanship</span>
                   </li>
                   <li>
-                    <a href="#">Store Locator</a>
+                    <span>Store Locator</span>
                   </li>
                 </ul>
               </li>
