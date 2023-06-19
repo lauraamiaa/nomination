@@ -7,31 +7,32 @@ function ProductComponent() {
     <div className="c-product__outer-wrapper">
       <div className="c-product__inner-wrapper">
         <div className="c-product__product-container">
-          <div className="c-product__bracelet-container">
-            <img
-              src={`${process.env.PUBLIC_URL}/bracelet.gif`}
-              alt="bracelet gif"
-              className="c-product__bracelet-gif"
+          <video autoPlay loop muted className="c-product__bracelet-gif">
+            <source
+              src={`${process.env.PUBLIC_URL}/bracelet-video.mp4`}
+              type="video/mp4"
             />
-          </div>
+            Your browser does not support the video tag.
+          </video>
+
           <div className="c-product__content-container">
             <div className="c-product__description-container">
               <div className="c-product__description-text">
                 <h3>BRACELET BUILDER</h3>
                 <p>
-                  Customize your very own Composable
+                  Customize your own Composable.
                   <br />
-                  Capture your essence & get creative
+                  Capture your essenze & get creative
                 </p>
               </div>
             </div>
-            <div className="c-product__button-container">
-              {/* <img
+            {/* <div className="c-product__button-container">
+              <img
                 src={`${process.env.PUBLIC_URL}/playbutton_button.png`}
                 alt="button icon"
                 className="c-product__button-icon"
-              /> */}
-            </div>
+              />
+            </div> */}
           </div>
         </div>
         <Swiper
@@ -39,26 +40,66 @@ function ProductComponent() {
           spaceBetween={5}
           slidesPerView={11}
         >
-          <SwiperSlide className="charm-1"></SwiperSlide>
-          <SwiperSlide className="charm-2"></SwiperSlide>
-          <SwiperSlide className="charm-3"></SwiperSlide>
-          <SwiperSlide className="charm-4"></SwiperSlide>
-          <SwiperSlide className="charm-5"></SwiperSlide>
-          <SwiperSlide className="charm-6"></SwiperSlide>
-          <SwiperSlide className="charm-7"></SwiperSlide>
-          <SwiperSlide className="charm-8"></SwiperSlide>
-          <SwiperSlide className="charm-9"></SwiperSlide>
-          <SwiperSlide className="charm-10"></SwiperSlide>
-          <SwiperSlide className="charm-11"></SwiperSlide>
-          <SwiperSlide className="charm-12"></SwiperSlide>
-          <SwiperSlide className="charm-13"></SwiperSlide>
-          <SwiperSlide className="charm-14"></SwiperSlide>
-          <SwiperSlide className="charm-15"></SwiperSlide>
-          <SwiperSlide className="charm-16"></SwiperSlide>
-          <SwiperSlide className="charm-17"></SwiperSlide>
-          <SwiperSlide className="charm-18"></SwiperSlide>
-          <SwiperSlide className="charm-19"></SwiperSlide>
-          <SwiperSlide className="charm-20"></SwiperSlide>
+          <SwiperSlide>
+            <div className="charm-1"></div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="charm-2"></div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="charm-3"></div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="charm-4"></div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="charm-5"></div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="charm-6"></div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="charm-7"></div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="charm-8"></div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="charm-9"></div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="charm-10"></div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="charm-11"></div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="charm-12"></div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="charm-13"></div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="charm-14"></div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="charm-15"></div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="charm-16"></div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="charm-17"></div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="charm-18"></div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="charm-19"></div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div className="charm-20"></div>
+          </SwiperSlide>
         </Swiper>
       </div>
     </div>
