@@ -16,28 +16,61 @@
     justify-content: center;
   }
 
-  &__grid-container {
-  }
+  &__swiper {
 
-  &__first-row {
-    display: flex; 
-    justify-content: space-around;
+    .swiper-slide {
+      
+      div {
+        border-radius: $borderRadius;
+        height: 30rem;
+        background-size: cover;
+        background-position: center;
+        position: relative;
+        margin: 5px;
+      }
 
-    img {
-      border-radius: 40px;
-      max-width: 500px;
-    }
-  }
-
-  &__second-row {
-    display: flex; 
-    justify-content: space-around;
-    margin-top: 20px;
-
-    img {
-      border-radius: 40px;
-      width: 200px;
-      height: 220px;
+        .insta-1 {
+          background-image: url('../../../public/insta-1.jpg');
+        }
+        .insta-2 {
+          background-image: url('../../../public/insta-2.png');
+        }
+        .insta-3 {
+          background-image: url('../../../public/insta-3.jpg');
+        }
+        .insta-4 {
+          background-image: url('../../../public/insta-4.jpg');
+        }
+        .insta-5 {
+          background-image: url('../../../public/insta-5.jpeg');
+        }
+        .insta-6 {
+          background-image: url('../../../public/insta-6.jpg');
+        }
+        .insta-7 {
+          background-image: url('../../../public/insta-7.jpg');
+        }
+        .insta-8 {
+          background-image: url('../../../public/insta-8.jpg');
+        }
+        .insta-9 {
+          background-image: url('../../../public/insta-9.jpg');
+        }
+        .insta-10 {
+          background-image: url('../../../public/insta-10.jpg');
+        }
+        .insta-11 {
+          background-image: url('../../../public/insta-11.jpeg');
+        }
+        .insta-12 {
+          background-image: url('../../../public/insta-12.jpg');
+        }
+        .insta-13 {
+          background-image: url('../../../public/insta-13.jpeg');
+        }
+        .insta-14 {
+          background-image: url('../../../public/insta-14.jpeg');
+        }
     }
   }
 
