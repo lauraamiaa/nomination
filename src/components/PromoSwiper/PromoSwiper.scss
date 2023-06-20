@@ -28,87 +28,96 @@
       background-position: top;
 
       &.one {
-        background-image: url("../../../public/designed-1.jpg");
+        background-image: url("../../../public/collabz-1.jpg");
       }
       &.two {
-        background-image: url("../../../public/designed-2.jpg");
+        background-image: url("../../../public/collabz-2.jpg");
       }
       &.three {
-        background-image: url("../../../public/designed-3.jpg");
+        background-image: url("../../../public/collabz-3.jpg");
       }
       &.four {
-        background-image: url("../../../public/designed-4.jpg");
+        background-image: url("../../../public/collabz-4.jpg");
       }
     }
   }
 
   &__charm-swiper {
+    padding: 20px 0 !important;
+    background-color: $secondaryDark1Color;
+    border-radius: $borderRadius;
+
     .swiper-slide {
+      border: 1px solid $textLight1Color;
+      border-radius: $borderRadius;
+      background-color: $secondaryColor;
+      
+      div {
         height: 5rem;
-        background-color: $secondaryColor;
-        border-radius: $borderRadius;
         background-size: cover;
         background-position: center;
         position: relative;
+        margin: 5px;
+      }
 
-        &.charm-1 {
+        .charm-1 {
           background-image: url('../../../public/charm-1.png');
         }
-        &.charm-2 {
+        .charm-2 {
           background-image: url('../../../public/charm-2.png');
         }
-        &.charm-3 {
+        .charm-3 {
           background-image: url('../../../public/charm-3.png');
         }
-        &.charm-4 {
+        .charm-4 {
           background-image: url('../../../public/charm-4.png');
         }
-        &.charm-5 {
+        .charm-5 {
           background-image: url('../../../public/charm-5.jpg');
         }
-        &.charm-6 {
+        .charm-6 {
           background-image: url('../../../public/charm-6.jpg');
         }
-        &.charm-7 {
+        .charm-7 {
           background-image: url('../../../public/charm-7.jpg');
         }
-        &.charm-8 {
+        .charm-8 {
           background-image: url('../../../public/charm-8.jpg');
         }
-        &.charm-9 {
+        .charm-9 {
           background-image: url('../../../public/charm-9.jpg');
         }
-        &.charm-10 {
+        .charm-10 {
           background-image: url('../../../public/charm-10.jpg');
         }
-        &.charm-11 {
+        .charm-11 {
           background-image: url('../../../public/charm-11.jpg');
         }
-        &.charm-12 {
+        .charm-12 {
           background-image: url('../../../public/charm-12.jpg');
         }
-        &.charm-13 {
+        .charm-13 {
           background-image: url('../../../public/charm-13.jpg');
         }
-        &.charm-14 {
+        .charm-14 {
           background-image: url('../../../public/charm-14.jpg');
         }
-        &.charm-15 {
+        .charm-15 {
           background-image: url('../../../public/charm-15.jpg');
         }
-        &.charm-16 {
+        .charm-16 {
           background-image: url('../../../public/charm-16.jpg');
         }
-        &.charm-17 {
+        .charm-17 {
           background-image: url('../../../public/charm-17.jpg');
         }
-        &.charm-18 {
+        .charm-18 {
           background-image: url('../../../public/charm-18.jpg');
         }
-        &.charm-19 {
+        .charm-19 {
           background-image: url('../../../public/charm-19.jpg');
         }
-        &.charm-20 {
+        .charm-20 {
           background-image: url('../../../public/charm-20.jpg');
         }
     }

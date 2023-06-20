@@ -50,6 +50,7 @@
   &__charm-swiper {
     padding: 20px 0 !important;
     background-color: $secondaryDark1Color;
+    border-radius: $borderRadius;
 
     .swiper-slide {
         border: 1px solid $textLight1Color;

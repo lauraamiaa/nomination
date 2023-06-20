@@ -63,15 +63,8 @@
   &__link {
     text-transform: uppercase;
     display: inline-block;
-    padding: 0 45px;
+    padding: 0 15px;
     position: relative;
-
-    &:first-of-type {
-      padding-left: 0;
-    }
-    &:last-of-type {
-      padding-right: 0;
-    }
 
     &:hover {
       cursor: pointer;
@@ -86,7 +79,7 @@
     display: none;
     position: absolute;
     top: 100%;
-    left: 0;
+    right: 5px;
     z-index: 100;
     background-color: $secondaryColor;
     padding-top: 30px;
